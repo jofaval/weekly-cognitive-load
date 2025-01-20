@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+# Weekly Cognitive Load
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Wireframe](./designs/wireframe.excalidraw.png)
 
-Currently, two official plugins are available:
+# Cognitive Load
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Abstract
 
-## Expanding the ESLint configuration
+Schedule week by week your cognitive load to avoid burnout. Specify percentage of time you want to spend on each type of tasks and register the time you spend on each.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Weekly Schedule
 
-- Configure the top-level `parserOptions` property like this:
+Use the previous configuration, opt-out so that you take action for the change you want to see in your life.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+You schedule the cognitive load by the week and each day you register the time you spend on each type of task. The system will let you know if you are spending too much time on a specific type of task. Basically it will hold you accountable so that you keep yourself on track.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+You can schedule cognitive load by the week.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Daily Schedule
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+You can track your percentage by the day and get an estimate on how much you can spend on each type of task.
+
+You can modify from today to the past every day, but you can not write the future. This tool will be most helpful if you use it every day.
+
+Recomend a balanced distribution but allow for absolute recommendation
