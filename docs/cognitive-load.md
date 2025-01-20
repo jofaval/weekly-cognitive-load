@@ -17,3 +17,5 @@ You can schedule cognitive load by the week.
 You can track your percentage by the day and get an estimate on how much you can spend on each type of task.
 
 You can modify from today to the past every day, but you can not write the future. This tool will be most helpful if you use it every day.
+
+Recomend a balanced distribution but allow for absolute recommendation
