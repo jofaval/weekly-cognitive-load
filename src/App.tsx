@@ -173,7 +173,7 @@ function Day({ day }: { day: Date }) {
   );
 }
 
-function Week({ week, weekends }: { week: Date; weekends: boolean }) {
+function Week({ week }: { week: Date; weekends: boolean }) {
   const days = useMemo(() => {
     const { firstDay, lastDay } = getFirstAndLastDayOfWeek(week);
 
